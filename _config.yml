@@ -3,3 +3,4 @@ title: Welcome to Vetrix's homepage!
 description: Keep an eye on my project updates from this site.
 name: Dzannun Austi, Script Kiddies
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
