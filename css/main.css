@@ -1,6 +1,29 @@
+$content-width: 800px;
+$main: #19CCAA;
+$font-style: 'Open Sans', sans-serif;
+$font-color: #262626;
+$link-color: #425469;
+$link-hover-color: $main;
+$heading-font: 'Muli', sans-serif;
+$heading-font-color: #425469;
+$light: #E7EDF4;
+$header:  #1D1425;
+
+*,
+*::before,
+*::after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+} 
+
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: 0;
+	color: $font-color;
+	font-family: $font-style;
+	font-size: 1.1em;
+	line-height: 1.6;
+-webkit-font-smoothing: antialiased;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -17,7 +40,8 @@ a {
     color: #999;
 }
 a:hover {
-    text-decoration: underline;
+	color: $link-hover-color;
+text-decoration: underline;
 }
 h1 {
     font-size: 3em;
